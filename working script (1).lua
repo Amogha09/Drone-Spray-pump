@@ -64,7 +64,7 @@ local NAV_TAKEOFF = 22
 
 --[[ MAVLINK SETUP ]]                                --
 local mavlink_msgs = require("MAVLink/mavlink_msgs") -- Import MAVLink message handling functions (mainly for decoding)
-local MAV_CHANNEL = 2                                -- Communicate in MAV_CHANNEL_1
+local MAV_CHANNEL = 2                                -- Communicate in MAV_CHANNEL_2
 
 -- Obtain MAVLink IDs
 local NAMED_VALUE_FLOAT_ID = mavlink_msgs.get_msgid("NAMED_VALUE_FLOAT")
